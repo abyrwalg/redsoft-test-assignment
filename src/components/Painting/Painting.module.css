@@ -1,0 +1,103 @@
+.Painting {
+  width: 280px;
+  height: 328px;
+  border: 1px solid #e1e1e1;
+}
+
+.Painting .image {
+  height: 160px;
+}
+
+.Painting .mainContent {
+  padding: 24px;
+  padding-top: 20px;
+}
+
+.Painting .title,
+.Painting .author {
+  padding: 0;
+  margin: 0;
+  font-family: Merriweather;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Painting .selling {
+  display: flex;
+  margin-top: 22px;
+}
+
+.Painting .selling .sold {
+  font-family: Merriweather;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #343030;
+}
+
+.Painting .selling button {
+  box-sizing: border-box;
+  width: 112px;
+  height: 48px;
+  margin-left: auto;
+  background-color: #382e2b;
+  border: none;
+  font-family: Merriweather;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: center;
+  color: #f4f6f9;
+  cursor: pointer;
+}
+
+.Painting .selling button.bought {
+  background-color: #5b3a32;
+}
+
+.Painting .selling button:hover {
+  background-color: #776763;
+  color: #f4f6f9;
+}
+
+.Painting .selling .purchased {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Painting .selling .purchased img {
+  width: 13px;
+  height: 9px;
+}
+
+.Painting .price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Painting .price span {
+  display: block;
+}
+
+.Painting .oldPirce {
+  font-family: Merriweather;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  text-decoration: line-through;
+  color: #a0a0a0;
+}
+
+.Painting .currentPrice {
+  font-family: Merriweather;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}

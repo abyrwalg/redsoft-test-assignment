@@ -1,0 +1,19 @@
+.ShowCase {
+  padding-top: 45px;
+}
+
+.ShowCase .container {
+  max-width: 1216px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ShowCase h2 {
+  margin-bottom: 39px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,17 @@
+.Address {
+  display: flex;
+  margin-left: auto;
+}
+
+.Address span {
+  display: flex;
+  align-items: center;
+}
+
+.Address img {
+  margin-right: 9px;
+}
+
+.Address .street {
+  margin-left: 51px;
+}
